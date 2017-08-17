@@ -72,7 +72,7 @@ public class DefaultMethodMultipleInheritance implements Interface1, Interface2 
 * Child Interfaces > Parent Interfaces
 
 
-```java runnable
+```java
 interface Interface3 extends Interface2 {
     default void defaultMethod() {
         System.out.println("No no print me!!!");
